@@ -3,7 +3,7 @@ name: CI Integration Tests
 on:
   schedule:
     # Triggers 4 times a day (every 6 hours) to distribute traffic naturally
-    - cron: '0 0,6,12,18 * * *'
+    - cron: '0 0,5,11,17 * * *'
   workflow_dispatch:
 
 jobs:
